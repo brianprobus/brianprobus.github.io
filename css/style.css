@@ -1,11 +1,24 @@
+#wrap {
+	max-width: 1024px;
+	margin: 0 auto;
+} 
+
+#wrap2 {
+	max-width: 1022px;
+	margin: 0 auto;
+}
+
 #top-line {
   background-color:steelblue;
+  max-width: 1024px;
+  max-height: 220px;
 }
 
 #left-side {
   background-color:steelblue;
   height: 600px;
-  width: 20%;
+  max-width: 210px;
+  float: left;
 
 }
 
@@ -14,8 +27,8 @@
 }
 
 #top-pic {
-	height: 100%;
-	max-width:100%;
+	max-width:800px;
+	margin:0 0 auto;
 }
 
 #pic-holder img {
@@ -23,23 +36,20 @@
 }
 
 #logo img {
-	max-height: 100%;
-	max-width: 100%;
+	max-height: 120px;
+	max-width: 120px;
 }
 
-#mid-page-nav a {
-	color:green;
-	margin:5px;
-	padding:2px;
-	float:left;
-	max-width:100%;
-}
+
 
 #redlined {
 	border: 2px solid red;
 	margin: 5px;
 	padding: 2px;
 }
+
+
+
 
 .nav-tabs a {
 	background-color: skyblue;
@@ -54,10 +64,84 @@
 .table-condensed {
 	margin:2px;
 	padding: 2px;
-	overflow:none;
 }
 
 li {
   list-style: none;
   padding: 2px;
+}
+
+#middlebox {
+	width: 540px;
+}
+
+#rightside{
+	max-width:200px;
+	float: left;
+	margin: 0 auto;
+}
+
+.col-md-9 {
+	max-width:300px;
+} 
+
+.table-condensed {
+	margin: 0 auto;
+}
+
+#mid-page-nav {
+	background-color: white;
+	float: top;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+
+#mid-page-nav ul {
+	width:100%;
+	float: left;
+}
+
+#mid-page-nav li {
+	display: inline;
+	width: 25%;
+}
+
+#mid-page-nav a {
+	text-decoration: none;
+	background-color: gold;
+	color: #000000;
+	border: 1px solid #000000;
+	font-family: Arial, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 9px;
+	margin: 3 auto;
+	width:20%;
+}
+
+#mid-page-nav a:active {
+	background-color: white;
+	color: green;
+}
+
+#mid-page-nav a:hover {
+	background-color: white;
+	color: green;
+}
+
+.tab-pane li{
+	display:block;
+	font-family: Arial, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+}
+
+.container {
+	color: skyblue;
+}
+
+.button1 {
+	color:black;
 }
